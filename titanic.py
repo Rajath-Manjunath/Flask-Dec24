@@ -10,7 +10,7 @@ with open('classifier.pkl','rb') as f:
 
 @app.route('/')
 def hello_world():
-    return "<h1>Hello there !!updated</h1>"
+    return "<h1>Hello there !!</h1>"
 
 @app.route('/predict',methods=['GET','POST'])
 def predict():
